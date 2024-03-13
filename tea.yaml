@@ -1,0 +1,83 @@
+# https://tea.xyz/what-is-this-file
+---
+version: 1.0.0
+codeOwners:
+  - '0xBC4acD0780a301250b8286baa4D8FDE2e90b20f1'
+quorum: 1
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 1rem;
+  text-align: center;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Tea</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Add content here -->
+    </main>
+    <footer>
+      <p>&copy; 2021 Tea. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
